@@ -38,5 +38,5 @@ dependencies {
     compile "org.apache.derby:derby:10.11.1.1"
 
     testCompile "junit:junit:4.12"
-    testCompile "org.springframework.boot:spring-boot-starter-test:+"
+    testCompile "org.springframework.boot:spring-boot-starter-test:${versions.springBootVersion}"
 }
